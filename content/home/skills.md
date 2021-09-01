@@ -16,7 +16,7 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 80%
+- description: R-80%, Python-60%, SAS-40%
   icon: code
   icon_pack: fas
   name: Programming
