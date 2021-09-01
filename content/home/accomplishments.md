@@ -55,7 +55,7 @@ item:
   organization_url: https://www.datacamp.com
   title: Outstanding Graduate Teaching Assistant Recognition.
   url: ""
-  - certificate_url: https://www.datacamp.com
+- certificate_url: https://www.datacamp.com
   date_end: "2020-05-31"
   date_start: "2019-05-31"
   description: ""
@@ -63,7 +63,7 @@ item:
   organization_url: https://www.datacamp.com
   title: International Association Black Actuaries Scholarships Recipient.
   url: ""
-  - certificate_url: https://www.datacamp.com
+- certificate_url: https://www.datacamp.com
   date_end: "2017-11-30"
   date_start: "2015-12-12"
   description: ""
