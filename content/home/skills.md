@@ -23,7 +23,7 @@ feature:
 - description: 100%
   icon: chart-line
   icon_pack: fas
-  name: Statistics
+  name: Actuarial Science
 - description: 10%
   icon: camera-retro
   icon_pack: fas
