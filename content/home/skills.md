@@ -26,10 +26,10 @@ feature:
   icon: chart-line
   icon_pack: fas
   name: Actuarial Science
-- description: 10%
-  icon: camera-retro
+- description: Regression/Classifications-95%, Clustering/Association Rule Learning-80%, Deep Learning/Reinforcement Learning/NLP-50%
+  icon: robot
   icon_pack: fas
-  name: Photography
+  name: Machine Learning
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
