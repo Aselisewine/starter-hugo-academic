@@ -27,10 +27,12 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: Machine Learning
+    tag: Machine Learning
+  - name: Actuarial Science
+    tag: Actuarial Science
+  - name: Statistics
+    tag: Statistics
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
