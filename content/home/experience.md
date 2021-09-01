@@ -46,7 +46,7 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Taught quantitative reasoning class and researched semiconductor physics.
+        * Taught quantitative reasoning class.
         * Created course instructions outlines for teaching.
         * Tutored over 60 students at the computer lab for one semester
   
