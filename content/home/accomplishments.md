@@ -25,27 +25,51 @@ date_format: Jan 2006
 item:
 - certificate_url: https://www.coursera.org
   date_end: ""
-  date_start: "2021-01-25"
+  date_start: "2020-09-01"
   description: ""
-  organization: Coursera
+  organization: University of Texas at Arlington
   organization_url: https://www.coursera.org
-  title: Neural Networks and Deep Learning
+  title: College of Science Graduate Fellowship.
   url: ""
 - certificate_url: https://www.edx.org
   date_end: ""
-  date_start: "2021-01-01"
-  description: Formulated informed blockchain models, hypotheses, and use cases.
-  organization: edX
+  date_start: "2020-05-01"
+  description: ""
+  organization: Spencer Educational Foundation
   organization_url: https://www.edx.org
-  title: Blockchain Fundamentals
+  title: Spencer Foundation Pre-Dissertation Scholarship
   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
 - certificate_url: https://www.datacamp.com
-  date_end: "2020-12-21"
-  date_start: "2020-07-01"
+  date_end: "2020-05-31"
+  date_start: "2018-08-12"
   description: ""
-  organization: DataCamp
+  organization: Ball State University 
   organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in R'
+  title: Graduate Merit Fellowship
+  url: ""
+- certificate_url: https://www.datacamp.com
+  date_end: ""
+  date_start: "2020-05-31"
+  description: ""
+  organization: Ball State University 
+  organization_url: https://www.datacamp.com
+  title: Outstanding Graduate Teaching Assistant Recognition
+  url: ""
+  - certificate_url: https://www.datacamp.com
+  date_end: "2020-05-31"
+  date_start: "2019-05-31"
+  description: ""
+  organization: International Association Black Actuaries 
+  organization_url: https://www.datacamp.com
+  title: International Association Black Actuaries Scholarships Recipient
+  url: ""
+  - certificate_url: https://www.datacamp.com
+  date_end: "2017-11-30"
+  date_start: "2015-12-12"
+  description: ""
+  organization: Prudential Life Insurance
+  organization_url: https://www.datacamp.com
+  title: Prudential Life Insurance Best Student Award
   url: ""
 
 design:
