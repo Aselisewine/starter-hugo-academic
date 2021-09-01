@@ -20,7 +20,9 @@ feature:
   icon: code
   icon_pack: fas
   name: Programming
-- description: 100%
+- description: |2- 
+      * Exams passed: Exams FM, P, IFM, and STAM
+      * Technical skills: Access/VBA in Excel-90%, SQL-65%, Tableau-85%
   icon: chart-line
   icon_pack: fas
   name: Actuarial Science
