@@ -47,7 +47,7 @@ social:
   icon_pack: fab
   link: https://twitter.com/aselisewine
 - icon: facebook  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: ai
+  icon_pack: fas
   link: https://www.facebook.com/wisdom.aselisewine
 - icon: github
   icon_pack: fab
