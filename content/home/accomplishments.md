@@ -69,7 +69,7 @@ item:
   description: ""
   organization: Prudential Life Insurance
   organization_url: https://www.datacamp.com
-  title: Prudential Life Insurance Best Student Award.
+  title: "Prudential Life Insurance Best Student Award."
   url: ""
 
 design:
