@@ -64,5 +64,5 @@ experience:
         * Assisted faculty members in their research and grading of students’ assignments and quizzes for two years.
 
 design:
-  columns: '3'
+  columns: '2'
 ---
