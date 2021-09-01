@@ -22,7 +22,7 @@ feature:
   name: Programming
 - description: |2- 
       * Exams passed: Exams FM, P, IFM, and STAM
-      * Technical skills: Access/VBA in Excel-90%, SQL-65%, Tableau-85%
+      * Technical skills: Access/VBA/Excel-90%, SQL-65%, Tableau-85%
   icon: chart-line
   icon_pack: fas
   name: Actuarial Science
