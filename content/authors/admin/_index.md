@@ -71,4 +71,4 @@ highlight_name: false
 ---
 
 Wisdom Aselisewine is a Ph.D Student of Statistics at the University of Texas at Arlington. He obtained a B.Sc degree in Actuarial Science, from the University for Development Studies in Ghana in 2015, and a Master's degree in Actuarial Science and Statistics, from the Ball state University in USA in 2020. His research interests include Machine Learning, Survival Analysis, Statistical Computing and Actuarial Science.
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+#{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
