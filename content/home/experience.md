@@ -22,29 +22,47 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Graduate Teaching Assistant
+    company: University of Texas at Arlington
     company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    company_logo: 
+    location: Arlington, TX
+    date_start: '2020-09-01'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Teaching a lab class.
+        * Assisting in faculty research.
+        * Holding office hours to assist students.
         
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Graduate Teaching Assistant
+    company: Ball State University
     company_url: ''
     company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Muncie, IN
+    date_start: '2018-08-12'
+    date_end: '2020-05-31'
+    description: |2-
+        Responsibilities include:
+        
+        * Taught quantitative reasoning class and researched semiconductor physics.
+        * Created course instructions outlines for teaching.
+        * Tutored over 60 students at the computer lab for one semester
+  
+  - title: Graduate Teaching Assistant
+    company: Univeristy for Development Students
+    company_url: ''
+    company_logo: org-x
+    location: Tamale, Ghana
+    date_start: '2011-08-30'
+    date_end: '2015-12-12'
+    description: |2-
+        Responsibilities include:
+        
+        * Tutored classes of over fifty students on subjects such as Calculus, Statistics, Actuarial and financial mathematics for two years.
+        * Assisted faculty members in their research and grading of students’ assignments and quizzes for two years.
 
 design:
-  columns: '2'
+  columns: '3'
 ---
