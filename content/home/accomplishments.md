@@ -45,7 +45,7 @@ item:
   description: ""
   organization: Ball State University 
   organization_url: https://www.datacamp.com
-  title: Graduate Merit Fellowship
+  title: Graduate Merit Fellowship.
   url: ""
 - certificate_url: https://www.datacamp.com
   date_end: ""
@@ -53,7 +53,7 @@ item:
   description: ""
   organization: Ball State University 
   organization_url: https://www.datacamp.com
-  title: Outstanding Graduate Teaching Assistant Recognition
+  title: Outstanding Graduate Teaching Assistant Recognition.
   url: ""
   - certificate_url: https://www.datacamp.com
   date_end: "2020-05-31"
@@ -61,7 +61,7 @@ item:
   description: ""
   organization: International Association Black Actuaries 
   organization_url: https://www.datacamp.com
-  title: International Association Black Actuaries Scholarships Recipient
+  title: International Association Black Actuaries Scholarships Recipient.
   url: ""
   - certificate_url: https://www.datacamp.com
   date_end: "2017-11-30"
@@ -69,7 +69,7 @@ item:
   description: ""
   organization: Prudential Life Insurance
   organization_url: https://www.datacamp.com
-  title: Prudential Life Insurance Best Student Award
+  title: Prudential Life Insurance Best Student Award.
   url: ""
 
 design:
