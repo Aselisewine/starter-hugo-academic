@@ -1,23 +1,23 @@
 ---
-title: "An example conference paper"
+title: "Journal"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Robert Ford
+- Eric Boahen
 
 # Author notes (optional)
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
 
-date: "2013-07-01T00:00:00Z"
+date: "2017-07-29T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2017-07-29T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -26,13 +26,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: In *Asian Research Journal of Mathematics*
+publication_short: In *ARJM*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Aims: The  disparity  in  under-five  mortality  between  rural  and  urban  areas  in  Ghana  and  other  sub-Saharan African countries is a critical national concern. The main purpose of this study is to identify and analyze the levels, differentials and key determinants of under-five mortality in Ghana based on selected socio-economic and demographic variables. Study  Design:  This  is  an  analytical  cross-sectional  study  design  of  the  2008  Ghana  Demographic  and Health Survey (GDHS) dataset for children. Methodology:  Under-five  Mortality  rates  were  calculated  based  on some  selected  socio-economic  and demographic   variables,   and   segregated   into   infant   and   child   mortality   headings.   Also,   series   of multivariate Cox regression models were fitted to these selected variables segregated into rural and urban headings. Results:  Overall,  the  likelihood  of  death  among  under-five  children  in  the  rural  areas  was  significantly higher  than  that  in  the  urban  areas  (p<0.05).  Breastfeeding, twins  and  size  of  child  at  birth  were  key determinants  of  mortality  in the  rural areas,  but the  influence  of  region  of residence  was  similar  in both rural and urban areas. Infant mortality rate in 2008 was 58.489 per 1000. Conclusion: Focus of child health strategies to achieving the MDG IV will be on the social and economic empowerment  of  women  through  education  and  employment.  Also,  breastfeeding  promotion  should  be encouraged.  Innovative  and  targeted  strategies  are  required  to  address  rural  poverty  and  region-specific sociocultural factors in order to improve child survival in rural Ghana, especially twin births. 
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Ghana; rural vs urban; under-five mortality.
 
 tags: []
 
@@ -42,7 +42,7 @@ featured: true
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
-#   url: http://example.org
+#   url: https://www.journalarjom.com/index.php/ARJOM/article/view/24350/45519
 
 url_pdf: ''
 url_code: ''
