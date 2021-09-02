@@ -20,13 +20,13 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: wisdom.aselisewine@uta.edu
+phone: 414 248 5048
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  street: 702 W Mitchell Circle
+  city: Arlington
+  region: TX
+  postcode: '76013'
   country: United States
   country_code: US
 coordinates:
@@ -41,19 +41,19 @@ contact_links:
   - icon: twitter
     icon_pack: fab
     name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    link: 'https://twitter.com/aselisewine'
+  #- icon: skype
+  #  icon_pack: fab
+  #  name: Skype Me
+  #  link: 'skype:echo123?call'
+ # - icon: keybase
+  #  icon_pack: fab
+  #  name: Chat on Keybase
+  #  link: 'https://keybase.io/'
+ # - icon: comments
+  #  icon_pack: fas
+  #  name: Discuss on Forum
+  #  link: 'https://discourse.gohugo.io'
 
 # Site header
 
