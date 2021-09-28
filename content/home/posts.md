@@ -11,7 +11,7 @@ weight: 60
 
 title: Blog/Recent Posts
 subtitle: 
-Url: 
+ 
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -20,13 +20,13 @@ content:
   count: 5
   # Filter on criteria
   filters:
-    author: ""
-    category: ""
+    author: "Wisdom Aselisewine"
+    category: "Data mining"
     tag: ""
     exclude_featured: 
     exclude_future: 
     exclude_past: 
-    publication_type: ""
+    publication_type: "Team project"
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
