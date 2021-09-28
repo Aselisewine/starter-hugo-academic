@@ -33,7 +33,7 @@ authors: Wisdom Aselisewine
 
 
 tags: Data Mining
-#- Academic
+- Academic
 
 
 categories: Projects
