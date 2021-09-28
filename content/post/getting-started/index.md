@@ -29,15 +29,15 @@ image:
   preview_only: false
 
 authors: Wisdom Aselisewine
-#- admin
+ - admin
 
 
 tags: Data Mining
-- Academic
+ - Academic
 
 
 categories: Projects
-#- Demo
+ - Demo
 
 ---
 
