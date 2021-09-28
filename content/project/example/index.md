@@ -6,7 +6,7 @@ tags:
 date: "2021-09-28T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "http://localhost:8888/notebooks/Downloads/titanic.ipynb"
+external_link: http://localhost:8888/notebooks/Downloads/titanic.ipynb
 
 image:
   caption: Photo by rawpixel on Unsplash
