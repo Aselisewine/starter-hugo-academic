@@ -4,7 +4,7 @@
 widget: pages
 
 # This file represents a page section.
-headless: True
+headless: true
 
 # Order that this section appears on the page.
 weight: 60
@@ -22,7 +22,7 @@ content:
   filters:
     author: "Wisdom Aselisewine"
     category: "Data mining"
-    tag: ""
+    tag: "Data mining"
     exclude_featured: 
     exclude_future: 
     exclude_past: 
