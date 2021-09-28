@@ -1,6 +1,6 @@
 ---
 title: Data Mining: Project 1
-summary: The aim of this project is to build a predictive Machine Learning model that predicts which passengers survived the Titanic shipwreck using the titanic dataset.
+summary: The aim of this project is to build a predictive Machine Learning model that predicts which passengers survived the Titanic shipwreck.
 tags:
 - Machine Learning
 date: "2021-09-28T00:00:00Z"
