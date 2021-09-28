@@ -6,7 +6,7 @@ subtitle:
 #summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with #everything in no time.
 
 # Link this post with a project
-projects: []
+projects: [Data Mining: Project 1]
 url: http://localhost:8888/notebooks/Downloads/titanic.ipynb
 
 # Date published
