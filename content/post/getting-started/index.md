@@ -1,18 +1,18 @@
 ---
-title: 
-subtitle: 
+title: Data Mining
+subtitle: Project 1
 
 # Summary for listings and search engines
 #summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with #everything in no time.
 
 # Link this post with a project
-projects: []
+projects: [http://localhost:8888/notebooks/Downloads/titanic.ipynb]
 
 # Date published
-date: "2021-12-13T00:00:00Z"
+date: "2021-09-27T00:00:00Z"
 
 # Date updated
-lastmod: "2020-12-13T00:00:00Z"
+lastmod: "2020-09-27T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
@@ -28,15 +28,15 @@ image:
   placement: 2
   preview_only: false
 
-authors:
+authors: Wisdom Aselisewine
 #- admin
 
 
-tags:
+tags: Data Mining
 #- Academic
 
 
-categories:
+categories: Projects
 #- Demo
 
 ---
