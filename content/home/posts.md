@@ -10,7 +10,8 @@ headless: false
 weight: 60
 
 title: Blog/Recent Posts
-subtitle:
+subtitle: Data Mining: Team Project 1
+Url: http://localhost:8888/notebooks/Downloads/titanic.ipynb
 
 content:
   # Page type to display. E.g. post, talk, publication...
