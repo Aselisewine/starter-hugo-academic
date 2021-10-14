@@ -16,7 +16,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: 
+  url: "http://localhost:8888/notebooks/Downloads/titanic.ipynb"
 url_code: ""
 url_pdf: ""
 url_slides: ""
