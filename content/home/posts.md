@@ -24,8 +24,8 @@ content:
     category: ""
     tag: ""
     exclude_featured: true
-    exclude_future: true
-    exclude_past: true
+    exclude_future: false
+    exclude_past: false
     publication_type: ""
   # Choose how many pages you would like to offset by
   offset: 0
