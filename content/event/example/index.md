@@ -1,10 +1,10 @@
 ---
-title: Example Talk
+title: Data Mining 
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: Project 1
+event_url: http://localhost:8888/notebooks/Downloads/titanic.ipynb
 
-location: Wowchemy HQ
+location: UTA
 address:
   street: 702 W Mitchell Circle
   city: Arlington
@@ -12,17 +12,17 @@ address:
   postcode: '76013'
   country: United States
 
-summary: An example talk using Wowchemy's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: The aim of this project is to build a predictive Machine Learning model that predicts which passengers survived the Titanic shipwreck.
+abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2030-06-01T13:00:00Z"
+date: "2021-09-28T13:00:00Z"
 date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2022-01-01T00:00:00Z"
+publishDate: "2021-09-28T00:00:00Z"
 
 authors: []
 tags: []
