@@ -1,10 +1,9 @@
 ---
-title: Data Mining 
+title: Upcoming talks 
 
 event: Project 1
-event_url: http://localhost:8888/notebooks/Downloads/titanic.ipynb
-
-location: UTA
+event_url: 
+location: 
 address:
   street: 702 W Mitchell Circle
   city: Arlington
@@ -12,12 +11,12 @@ address:
   postcode: '76013'
   country: United States
 
-summary: The aim of this project is to build a predictive Machine Learning model that predicts which passengers survived the Titanic shipwreck.
+summary: 
 abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-09-28T13:00:00Z"
+date: "2022-09-28T13:00:00Z"
 date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
