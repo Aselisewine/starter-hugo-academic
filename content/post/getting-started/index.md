@@ -3,7 +3,7 @@ title: Data Mining project 1
 subtitle: 
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: The aim of this project is to build a predictive Machine Learning model that predicts which passengers survived the Titanic shipwreck..
 
 # Link this post with a project
 projects: []
