@@ -3,10 +3,10 @@ title: Data Mining project 1
 subtitle: 
 
 # Summary for listings and search engines
-#summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with #everything in no time.
+summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
 
 # Link this post with a project
-projects: [http://localhost:8888/notebooks/Downloads/titanic.ipynb]
+projects: []
 
 
 # Date published
