@@ -1,12 +1,12 @@
 ---
-title: "Data Mining: Project 1"
+title: "Kaggle Competition: Titanic - Machine Learning from Disaster"
 summary: The aim of this project is to build a predictive Machine Learning model that predicts which passengers survived the Titanic shipwreck.
 tags:
 - Machine Learning
 date: "2021-09-28T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "http://localhost:8888/notebooks/Downloads/titanic.ipynb"
+external_link: "https://wisdom-aselisewine.netlify.app/post/project-1/"
 
 image:
   caption: Photo by rawpixel on Unsplash
@@ -16,7 +16,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: "http://localhost:8888/notebooks/Downloads/titanic.ipynb"
+  url: "https://wisdom-aselisewine.netlify.app/post/project-1/"
 url_code: ""
 url_pdf: ""
 url_slides: ""
