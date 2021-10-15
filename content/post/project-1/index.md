@@ -1393,8 +1393,6 @@ Submitting the results to Kaggle, the proposed model had a score of 0.78468. We 
 
 ## References
 
-
-
 1. https://scikitlearn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier
 2. https://scikit-learn.org/stable/modules/model_evaluation.html#scoring-parameter
 3. https://machinelearningmastery.com/calculate-feature-importance-with-python/
