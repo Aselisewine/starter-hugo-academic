@@ -1,5 +1,5 @@
 ---
-title: "Kaggle Competition: Titanic - Machine Learning from Disaster"
+title: "Kaggle Competition:Titanic-Machine Learning from Disaster"
 summary: The aim of this project is to build a predictive Machine Learning model that predicts which passengers survived the Titanic shipwreck.
 tags:
 - Machine Learning
