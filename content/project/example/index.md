@@ -16,7 +16,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: "https://wisdom-aselisewine.netlify.app/post/project-1/"
+  url: "https://twitter.com/aselisewine"
 url_code: ""
 url_pdf: ""
 url_slides: ""
