@@ -1,5 +1,6 @@
 ---
-title: Project 1
+title: Data Mining Project 1
+subtitle: Kaggle Competition
 date: 2021-10-14T17:38:08.848Z
 draft: false
 featured: false
@@ -8,28 +9,16 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-## Term project tutorial
+The primary objective of this project is to build a predictive Machine Learning model that predicts which passengers survived the Titanic shipwreck in April 15, 1912 using passengers data. Also, we will perform a 
+variable or feature importance test in this study which will help us to better improve our predictive model and gain more insights to the given data. The main purpose of the feature importance test is to help us also determine the relative importance of each variable in the proposed predictive model.  
+
+The dataset involved in this study contained information, such as the name, survival status, gender, ticket class, age, fare, port of embarkation, number of siblings/spouse aboard the titanic, and the number of parent/children aboard the titanic, of passengers that a-boarded the titanic which sank after colliding with an iceberg and resulted in the death of 1502 out of 2224 passengers and crew. The response or predicted variable for this study is the survival status (an indicator variable that takes a value of 1 if survived and 0 if dead). 
+
+Since our response variable is binary (0 or 1 ), then the recommended machine learning model for this analysis is classification models. For the purposes of this study, we will explore the following classification models such as the Random forest, K-Nearest Neighbor, and Support Vector Machines to determine if any of them fits well or provides accurate predictions to the given data. We proposed these classification models because of they are more robust and have the ability to capture both simple and complex patterns that maybe found in the data. The best model will be selected based on prediction accuracy.
 
 ```
-The primary objective of this project is to build a predictive Machine Learning model that predicts which 
-passengers survived the Titanic shipwreck in April 15, 1912 using passengers data. Also, we will perform a 
-variable or feature importance test in this study which will help us to better improve our predictive 
-model and gain more insights to the given data. The main purpose of the feature importance test is to help 
-us also determine the relative importance of each variable in the proposed predictive model.  
 
-The dataset involved in this study contained information, such as the name, survival status, gender, 
-ticket class, age, fare, port of embarkation, number of siblings/spouse aboard the titanic, and the number 
-of parent/children aboard the titanic, of passengers that aboarded the titanic which sank after colliding 
-with an iceberg and resulted in the death of 1502 out of 2224 passengers and crew. The response or predicted 
-variable for this study is the survival status (an indicator variable that takes a value of 1 if survived and 0 
-if dead). 
 
-Since our response variable is binary (0 or 1 ), then the recommended machine learning model for this analysis 
-is classification models. For the purposes of this study, we will explore the following classification models 
-such as the Random forest, K-Nearest Neighbor, and Support Vector Machines to determine if any of them fits well 
-or provides accurate predictions to the given data. We proposed these classification models because of they are 
-more robust and have the ability to capture both simple and complex patterns that maybe found in the data. The 
-best model will be selected based on prediction accuracy.
 ```
 
 ## Importing the libraries
@@ -60,14 +49,14 @@ from sklearn.model_selection import RandomizedSearchCV
 from sklearn.svm import SVC
 ```
 
-## Prepocessing of dataset
+## Preprocessing of dataset
 
-```
 The dependent or predicted variable is denoted as y. The independent variables or predictors are denoted 
 as X, and includes; gender, ticket class, age, fare, port of embarkation, number of siblings/spouse aboard 
-the titanic, and the number of parent/children aboard the titanic. Apart from age and fare, all other 
-predictors are categorical and need to be encoded. Missing values in the dataset are replaced by the mode or 
-most frequent observation. Know that missing values can also be replaced by the mean or the nedian.
+the titanic, and the number of parent/children aboard the titanic. Apart from age and fare, all other predictors are categorical and need to be encoded. Missing values in the dataset are replaced by the mode or most frequent observation. Know that missing values can also be replaced by the mean or the median.
+
+```
+
 ```
 
 ```python
@@ -85,19 +74,14 @@ X.iloc[:, 0:]=mv.transform(X.iloc[:, 0:])
 
 ## Splitting the dataset into the Training set and Test set and Performing Feature Scaling
 
-```
-The training dataset is split into two. Splitting the training dataset into training and test/validation 
-sets is optional in this study since a test dataset has already been provided. However, since our aim is 
-to first identify the optimal model (the model that provides accurate predictions to the dataset) and 
-apply this optimal model to our test data, then it makes sense for us to split the training data into 
-training set and validation set. The training set will be used to train our model, whiles the validation 
-set will be used to test the model. The confusion matrix and the accuracy score will be used to assess the 
-quality of each model. Hyperparameters of each classification model will be obtained used grid search 
-cross-validation.
+The training dataset is split into two. Splitting the training dataset into training and test/validation sets is optional in this study since a test dataset has already been provided. However, since our aim is to first identify the optimal model (the model that provides accurate predictions to the dataset) and apply this optimal model to our test data, then it makes sense for us to split the training data into training set and validation set. The training set will be used to train our model, whiles the validation set will be used to test the model. The confusion matrix and the accuracy score will be used to assess the quality of each model. Hyper-parameters of each classification model will be obtained used grid search cross-validation.
 
 Feature scaling are performed to predictors such as the passenger's  ticket class, age, fare, number of 
 siblings/spouse aboard the titanic, and the number of parent/children aboard the titanic to ensured that some 
-feature are not dominated by others. Standization helps to ensure that features take values within some ranges.
+feature are not dominated by others. Standardization helps to ensure that features take values within some ranges.
+
+```
+
 ```
 
 ```python
@@ -512,13 +496,11 @@ dataset.boxplot(figsize=(10,7))
 
 ## 1. Random Forest Classification Model
 
+Random forest is an ensemble learning method for classification and regression. It involves construction of a multitude of decision trees using the training data. The output of the random forest is the class selected by the majority of trees. Random forest de-correlates trees by considering only a random subset of K-variables, 
+with the aim of improving prediction. Two hyper-parameters are of particular interest, the number of trees and the number of features to consider at each split. These parameters will be obtained through grid search cross-validation in this study.
+
 ```
-Random forest is an ensemble learning method for classification and regression. It involves construction of 
-a multitude of decision trees using the training data. The output of the random forest is the class selected 
-by the majority of trees. Random forest decorrelates trees by considering only a random subset of K-variables, 
-with the aim of improving prediction. Two hyperparameters are of particular interest, the number of trees and 
-the number of features to consider at each split. These parameters will be obtained through grid search cross-
-validation in this study.
+
 ```
 
 ```python
@@ -543,7 +525,7 @@ Rf = accuracy_score(y_test, survival_predictions)
 0.8435754189944135
 ```
 
-## Tuning Random Forest Hyperparameters using Gridsearch Cross-Validation
+## Tuning Random Forest Hyper-parameters using Grid-search Cross-Validation
 
 ```python
 #List of Hyperparameter
@@ -598,14 +580,11 @@ The default/initial model has a prediction accuracy rate of 85.47%, whiles the o
 
 ## 2. K-Nearest Neighbor (K-NN) Classification Model
 
-```
 K-NN is a non-parametric classification method used to solve both classification and regression problems. 
-The K-NN classified a response variable given set of predictor values by identifying the K neareat points 
-or neighbors in the training data that are closest to the given value. K is a hyperparameter that can be 
-pre-specified through cross-validation. In this study, we will first fit a K-NN model to the training data 
-by simply specifying a default value for K. We will then tune our model parameters using the grid search 
-cross-validation to obtain the best K for our model. The best K will then be used to fit the optimal model 
-for this algorithm. 
+The K-NN classified a response variable given set of predictor values by identifying the K nearest points or neighbors in the training data that are closest to the given value. K is a hyper-parameter that can be pre-specified through cross-validation. In this study, we will first fit a K-NN model to the training data by simply specifying a default value for K. We will then tune our model parameters using the grid search cross-validation to obtain the best K for our model. The best K will then be used to fit the optimal model for this algorithm. 
+
+```
+
 ```
 
 ```python
@@ -667,23 +646,22 @@ print(accuracy_score(y_test, survival_pred_optimal))
 Knn = accuracy_score(y_test, survival_pred_optimal)
 ```
 
+Before tuning the K-NN parameter, the default K-NN model has a prediction accuracy rate of 82.12%. After tuning, we obtained an accuracy rate of 82.68%, which is a little improvement over of the default model.
+
 ```
 [[96 14]
  [34 35]]
 0.7318435754189944
 
 
-Before tuning the K-NN parameter, the default K-NN model has a prediction accuracy rate of 82.12%. After 
-tuning, we obtained an accuracy rate of 82.68%, which is a little improvement over of the default model.
 ```
 
 ## 3. Support Vector Machine (SVM) Classification Model
 
+SVM is a supervised machine learning model which can be used for classification and regression. SVM is known to be one of the most robust prediction method, by being able to handle both linear and non-linear problems in machine learning. Three parameters will be considered here, the kernel, gamma, and C (Regularization parameter). These parameters are can be obtained through cross-validation.
+
 ```
-SVM is a supervised machine learning model which can be used for classification and regression. SVM is 
-known to be one of the most robust prediction method, by being able to handle both linear and non-linear 
-problems in machine learning. Three parameters will be considered here, the kernel, gamma, and C-classification. 
-These parameters are can be obtained through cross-validation.
+
 ```
 
 ```python
@@ -1223,21 +1201,22 @@ print(cm)
 Svm = accuracy_score(y_test, survival_pred)
 ```
 
+The best optimal model obtained here has an accuracy rate of 82.12%, which is far higher than the accuracy rate obtained by the default model (78.77%). Therefore, the best model is the optimal model.
+
 ```
 [[102   8]
  [ 24  45]]
 
 
-The best optimal model obtained here has an accuracy rate of 82.12%, which is far higher than the accuracy 
-rate obtained by the default model (78.77%). Therefore, the best model is the optimal model.
+
 ```
 
 ## Final Model Selection
 
+The final model is selected by comparing the predictive accuracy rate of best models from each classification model. The final model will then be considered as our proposed optimal predictive model. The proposed optimal predictive model will the be used to predict which passengers survived the titanic.
+
 ```
-The final model is selected by comparing the predictive accuaracy rate of best models from each classification 
-model. The final model will then be considered as our proposed optimal predictive model. The proposed optimal 
-predictive model will the be used to predict which passengers survived the titanic.
+
 ```
 
 ```python
@@ -1291,10 +1270,10 @@ DataFrame(cars)
 </table>
 </div>
 
+Since the Random Forest model has the highest predictive accuracy, the final optimal predictive model is the random forest model. We will therefore use the random forest model for our final predictions.
+
 ```
-Since the Random Forest model has the highest predictive accuracy, the final optimal predictive model is 
-the random forest model. 
-We will therefore use the random forest model for our final predictions.
+
 ```
 
 ## Final Model
@@ -1332,6 +1311,8 @@ output = pd.DataFrame({'PassengerId': test_dataset.PassengerId, 'Survived': y_pr
 print(output)
 ```
 
+CONGRATULATIONS! After submitting our results to the Kaggle's Titanic Machine Learning Competition, we obtained a score of 0.78468 accuracy rate.
+
 ```
      PassengerId  Survived
 0            892         0
@@ -1349,8 +1330,6 @@ print(output)
 [418 rows x 2 columns]
 
 
-CONGRATULATIONS! After submitting our results to the Kaggle's Titanic Machine Learning 
-Competition, we obtained a score of 0.78468 accuracy rate.
 ```
 
 ## Feature Importance using Optimal Model
@@ -1380,57 +1359,47 @@ Feature: 8, Score: 0.00684
 Feature: 9, Score: 0.01351
 ```
 
-![png](output_54_1.png)
+![png](output_54_1.png "Feature importance")
+
+The feature importance results obtained above indicates that passengers fare plays a very significant role in predicting which passenger survived the titanic since it has the highest score of 0.285. This is immediately followed by the age of the passenger with a score of 0.278. This appears to make sense because generally we do not expect children under 10 years and some elderly people above 60 years (minimum age 0.42 years, mean age 29.7 years, and maximum age 80 years) who were also in the ship to be strong enough to swim on their own without life-jacket for a longtime (since there was shortage of life-jackets). Interestingly, the port of embarkation does not contribute much to the predictions.
 
 ```
-The feature importance results obtained above indicates that passengers fare plays a very significant role 
-in predicting which passenger survived the titanic since it has the highest score of 0.285. This is immediately 
-followed by the age of the passenger with a score of 0.278. This appears to make sense because generally we do 
-not expect children under 10 years and some elderly people above 60 years (minimum age 0.42 years, mean age 29.7 
-years, and maximum age 80 years) who were also in the ship to be strong enough to swim on their own without life-
-jacket for a longtime (since there was shortage of life-jackets). Interestingly, the port of embarkation does not 
-contribute much to the predictions.
+
 ```
 
 ## Challenges
 
+The main challenge I faced in this project is obtaining the right hyper-parameter estimate for each classification model. Ordinarily specifying parameter values does not help to obtain the optimal prediction model. To resolve this, the grid search cross-validation technique was used to obtain parameters by tuning across a range of parameter values.
+
 ```
-The main challenge I faced in this project is obtaining the right hyperparameter estimate for each classification 
-model. Ordinarily specifying parameter values does not help to obtain the optimal prediction model. To resolve this, 
-the grid search cross-validation technique was used to obtain parameters by tuning across a range of parameter values.
+
 ```
 
 ## Contributions
 
-```
-The main objective of the study is to build a predictive model that predicts which passenger survived the 
-titanic shipwreck. To make sure we obtain the best prediction model, we decided to fit the data to three 
-robust classification models namely Random Forest, K-NN, and SVM. This will help us to first identify which 
-of those models fits well into the given data. We then selected the optimal or the best model from these 
-models by comparing the accuracy rate of each model's prediction. Before fitting any model to the data, we 
-first performed data preprocessing and feature scaling. The data preprocessing will help to take care of the 
-missing values found in the dataset whiles the feature scaling will help to make sure all features are on the 
-same scale, and no feature has the tendency to dominate the other. Also, the training data is split into two: 
-80% training set, which is used to train the preliminary models, and the 20% validation set, which will be used 
-to test the accuracy rates of our preliminary models. This step is important because it will help us to be able 
-to select or propose an optimal model to be used for predictions on the given test data.
+The main objective of the study is to build a predictive model that predicts which passenger survived the titanic shipwreck. To make sure we obtain the best predictive model, we decided to fit the data to three different robust classification models, namely, Random Forest, K-NN, and SVM. This will help us to first identify which of those models fits well into the given data. We then selected the optimal or the best model from these fitted models by comparing their accuracy rate. 
 
-After fitting each preliminary model, we tune each model's parameter values using cross-validation to make sure 
-the best parameter values are being used in each fit. Three best preliminary models were selected at the preliminary 
-stage, each from Random Forest, K-Nearest Neighbor, and Support Vector Machine, for comparison. It turned out that the 
-Random Forest model outperformed the other two models. We therefore, proposed the Random Forest model as the best predictive 
-model for the given data. We performed prediction on the given test data using our proposed Random Forest model. Submitting 
-the results to Kaggle, the proposed model had a score of 0.78468. We also performed predictions on the given test data using 
-the other two models; K-NN and SVM. We obtained scores of 0.74162 and 0.77990 respectively for K-NN and SVM. The proves or 
-confirms our proposed Random Forest model is indeed optimal.
+Before fitting any model to the data, we first performed data preprocessing and feature scaling. The data preprocessing will help to take care of the missing values found in the dataset whiles the feature scaling will help to make sure all features are on the same scale, and no feature has the tendency to dominate the other. 
+
+Also, the training data was split into two: 80% training set, which was used to train the preliminary models, and the 20% validation set, which will be used to test the accuracy rates of our preliminary models. This step is important because it will help us to be able to select an optimal model to be used for predictions on the given test data. 
+
+After fitting each preliminary model, we tune each model's parameter values using cross-validation to make sure the best parameter values were being used in each fit. Three best preliminary models were selected at the preliminary stage, each from Random Forest, K-Nearest Neighbor, and Support Vector Machine, for comparisons. It turned out that the Random Forest model outperformed the other two models. We therefore, proposed the Random Forest model as the best predictive model for the given data. We performed prediction on the given test data using our proposed Random Forest model. 
+
+Submitting the results to Kaggle, the proposed model had a score of 0.78468. We also performed predictions on the given test data using the other two models; K-NN and SVM. We obtained scores of 0.74162 and 0.77990 respectively for K-NN and SVM. The proves or confirms our proposed Random Forest model is indeed optimal.
+
+```
+
 ```
 
 ## References
 
-```
-1. https://scikitlearn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.
-neighbors.KNeighborsClassifier
+
+
+1. https://scikitlearn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier
 2. https://scikit-learn.org/stable/modules/model_evaluation.html#scoring-parameter
 3. https://machinelearningmastery.com/calculate-feature-importance-with-python/
 4. https://www.kaggle.com/alexisbcook/titanic-tutorial
+
+```
+
 ```
