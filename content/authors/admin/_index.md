@@ -1,7 +1,7 @@
 ---
 title: Wisdom Aselisewine
 role: Ph.D Student of Statistics
-avatar_filename: photo-visa.jpeg
+avatar_filename: ""
 bio: My research interests include Machine Learning Methods, Survival Analysis,
   Statistical Computing, and Actuarial Science.
 interests:
