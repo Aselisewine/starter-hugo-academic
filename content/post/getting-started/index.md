@@ -5,7 +5,7 @@ subtitle:
 # Summary for listings and search engines
 summary: The aim of this project is to build a predictive Machine Learning model that predicts which passengers survived the Titanic shipwreck.
 # Optional external URL for project (replaces project detail page).
-external_link: "http://localhost:8888/notebooks/Downloads/titanic.ipynb"
+external_link: "https://wisdom-aselisewine.netlify.app/post/project-1/"
 
 # Link this post with a project
 projects: []
