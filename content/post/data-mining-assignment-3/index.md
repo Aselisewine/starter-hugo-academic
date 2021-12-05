@@ -58,7 +58,7 @@ The python codes for this project are taken directly from the following sources.
 7. https://aiaspirant.com/cross-validation/
 8. https://www.dataquest.io/blog/naive-bayes-tutorial/
 9. https://towardsdatascience.com/sentiment-analysis-with-text-mining-13dd2b33de27
-   10.https://towardsdatascience.com/unfolding-na%C3%AFve-bayes-from-scratch-2e86dcae4b01
+10. https://towardsdatascience.com/unfolding-na%C3%AFve-bayes-from-scratch-2e86dcae4b01
 
 ## Load Data
 
