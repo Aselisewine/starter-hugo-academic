@@ -1,7 +1,7 @@
 ---
 title: Project Proposal
 subtitle: null
-date: 2021-12-09T01:00:00.000Z
+date: 2021-12-08T01:00:00.000Z
 summary: ""
 draft: false
 featured: true
