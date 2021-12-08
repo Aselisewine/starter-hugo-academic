@@ -6,7 +6,7 @@ summary: ""
 draft: false
 featured: true
 authors: null
-lastmod: 2022-09-27T00:00:00Z
+lastmod: 2021-12-08T00:00:00Z
 external_link: https://wisdom-aselisewine.netlify.app/post/project-1/
 tags: Data Mining
 categories: null
