@@ -16,7 +16,7 @@ The value of a house is usually determined by several factors which include loca
 
 <https://github.com/Aselisewine/starter-hugo-academic/blob/master/static/uploads/Problem%20Statement%20Proposal.pdf>
 
-This project is available in kaggle through the following link:
+This project is also available in kaggle through the following link:
 
 <https://www.kaggle.com/wisdomaselisewine/data-mining-final-project?scriptVersionId=81901074>
 
