@@ -8,9 +8,7 @@ image:
   focal_point: Smart
   preview_only: false
 ---
- - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+ 
 ## Introduction
 
 The goal of this project is to train a model that can predict house prices accurately with minimal errors for house buyers and house sellers.
