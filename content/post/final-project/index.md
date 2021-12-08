@@ -18,9 +18,8 @@ The value of a house is usually determined by several factors which include loca
 
 The screenshots below are obtained from the following links:
 
-<https://sell.opendoor.com/hp-v3/?gclid=Cj0KCQiAzMGNBhCyARIsANpUkzOglOuBGaunfLPugzVpGz60XdhZKCwao-LhigAtzYeByrQ7DpBlBccaAvK4EALw_wcB&opt_exp=hp_phase_3&utm_campaign=13036899765&utm_cat=home&utm_content=524294580396&utm_medium=search&utm_source=google&utm_term=house+value>
-
-<https://sell.opendoor.com/hp-v3/?gclid=Cj0KCQiAzMGNBhCyARIsANpUkzNMlmurwzcaS6TH1b2Nft-yogA-nUa57y0YvzHy3_ZLqF77sr-t7ccaAlD_EALw_wcB&opt_exp=hp_phase_3&utm_campaign=13036899765&utm_cat=home&utm_content=524294579712&utm_medium=search&utm_source=google&utm_term=property+value>
+1. [https://sell.opendoor.com/hp-v3/ gclid=Cj0KCQiAzMGNBhCyARIsANpUkzOglOuBGaunfLPugzVpGz60XdhZKCwao-LhigAtzYeByrQ7DpBlBccaAvK4EALw_wcB&opt_exp=hp_phase_3&utm_campaign=13036899765&utm_cat=home&utm_content=524294580396&utm_medium=search&utm_source=google&utm_term=house+value](https://sell.opendoor.com/hp-v3/?gclid=Cj0KCQiAzMGNBhCyARIsANpUkzOglOuBGaunfLPugzVpGz60XdhZKCwao-LhigAtzYeByrQ7DpBlBccaAvK4EALw_wcB&opt_exp=hp_phase_3&utm_campaign=13036899765&utm_cat=home&utm_content=524294580396&utm_medium=search&utm_source=google&utm_term=house+value)
+2. [https://sell.opendoor.com/hp-v3/?gclid=Cj0KCQiAzMGNBhCyARIsANpUkzNMlmurwzcaS6TH1b2Nft-yogA-nUa57y0YvzHy3_ZLqF77sr t7ccaAlD_EALw_wcB&opt_exp=hp_phase_3&utm_campaign=13036899765&utm_cat=home&utm_content=524294579712&utm_medium=search&utm_source=google&utm_term=property+value](https://sell.opendoor.com/hp-v3/?gclid=Cj0KCQiAzMGNBhCyARIsANpUkzNMlmurwzcaS6TH1b2Nft-yogA-nUa57y0YvzHy3_ZLqF77sr-t7ccaAlD_EALw_wcB&opt_exp=hp_phase_3&utm_campaign=13036899765&utm_cat=home&utm_content=524294579712&utm_medium=search&utm_source=google&utm_term=property+value)
 
 ![Screen%20Shot%202021-12-08%20at%209.35.10%20AM.png](screen-shot-2021-12-08-at-9.35.10-am.png)
 
