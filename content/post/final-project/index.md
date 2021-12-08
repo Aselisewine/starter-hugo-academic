@@ -8,7 +8,8 @@ image:
   focal_point: Smart
   preview_only: false
 ---
- 
+## [uploads/Problem Statement Proposal.pdf](<uploads/Problem Statement Proposal.pdf>)
+
 ## Introduction
 
 The goal of this project is to train a model that can predict house prices accurately with minimal errors for house buyers and house sellers.
@@ -2634,11 +2635,7 @@ The first challenge in this study has to do with the cleaning of the data. We id
 Regarding future works, I intend to development a usable application that can use the characteristics of a house to predict the price or value of the house. This implies that any customer who wants or needs to buy or sell a house will just have to specify some key features of the house and the model will immediately predict the expected price. This is very important because, it will help will sellers to know the fair price for their house and also help buyers to know how much they need to have or bargain in order to get their dream house.
 
 4. References
-
-1. https://www.kaggle.com/erick5/predicting-house-prices-with-machine-learning
-
-2. https://www.youtube.com/watch?v=rdfbcdP75KI&list=PLeo1K3hjS3uu7clOTtwsp94PcHbzqpAdg
-
-3. https://stackoverflow.com/questions/27928275/find-p-value-significance-in-scikit-learn-linearregression
-
-4. https://the-algorithms.com/algorithm/house-price-prediction
+5. https://www.kaggle.com/erick5/predicting-house-prices-with-machine-learning
+6. https://www.youtube.com/watch?v=rdfbcdP75KI&list=PLeo1K3hjS3uu7clOTtwsp94PcHbzqpAdg
+7. https://stackoverflow.com/questions/27928275/find-p-value-significance-in-scikit-learn-linearregression
+8. https://the-algorithms.com/algorithm/house-price-prediction
