@@ -1,13 +1,11 @@
 
 
-#[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-#stories/).
+- 👉 Hello there! I’m currently working to fit a predictive model for housing in the real estate industry.  A link to this project is found on the following link: https://wisdom-aselisewine.netlify.app/post/final-project/![image](https://user-images.githubusercontent.com/89891540/145290642-5e96ba90-4c8e-4295-87d1-b5c75a0c46e3.png)
 
-#[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate #it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.
+- o	The data set for this project were obtained from the following source: https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data/activity![image](https://user-images.githubusercontent.com/89891540/145290909-7e6cd224-9d84-4c53-ad96-c8ac17c5aadc.png)
 
-- 👉 o	Hello there! I’m currently working to fit a predictive model for housing in the real estate industry.  A link to this project is found on the following link: https://wisdom-aselisewine.netlify.app/post/final-project/![image](https://user-images.githubusercontent.com/89891540/145290642-5e96ba90-4c8e-4295-87d1-b5c75a0c46e3.png)
+- o	We fitted a predictive model to the given to be able to determine the price of a house given some features such as the location, number of bathrooms, bedrooms and the total square area.![image](https://user-images.githubusercontent.com/89891540/145290995-c0caa065-ab6a-4c61-91eb-b96c8fded5f9.png)
 
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
 - 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
 - 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
 - ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/guide/update/) and [Release Notes](https://wowchemy.com/updates/)
