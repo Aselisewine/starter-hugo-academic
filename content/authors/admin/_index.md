@@ -27,7 +27,7 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
-  - icon: 
+  - icon: proposal
     icon_pack: ai
     link: uploads/Problem Statement Proposal.pdf
 organizations:
