@@ -8,13 +8,13 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-## [uploads/Problem Statement Proposal.pdf](<uploads/Problem Statement Proposal.pdf>)
-
 ## Introduction
 
 The goal of this project is to train a model that can predict house prices accurately with minimal errors for house buyers and house sellers.
 
-The value of a house is usually determined by several factors which include location, square footage, number of bedroom, number of baths and so on. Due to the recent increase in the price of houses, many seekers of houses are now interested in knowing the very important aspects that give a house its value. In this project, we are interested in modeling the key variables that determine the value of a house and come out with a predictive model that will help home seeker to determine in advance the value of a house.
+The value of a house is usually determined by several factors which include location, square footage, number of bedroom, number of baths and so on. Due to the recent increase in the price of houses, many seekers of houses are now interested in knowing the very important aspects that give a house its value. In this project, we are interested in modeling the key variables that determine the value of a house and come out with a predictive model that will help home seeker to determine in advance the value of a house. This is a link to the project proposal: 
+
+https://github.com/Aselisewine/starter-hugo academic/blob/master/static/uploads/Problem%20Statement%20Proposal.pdf
 
 ![Screen%20Shot%202021-12-08%20at%209.35.10%20AM.png](screen-shot-2021-12-08-at-9.35.10-am.png)
 
