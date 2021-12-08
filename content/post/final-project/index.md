@@ -20,6 +20,10 @@ This project is also available in kaggle through the following link:
 
 <https://www.kaggle.com/wisdomaselisewine/data-mining-final-project?scriptVersionId=81901074>
 
+The github README file for this project is available through the following link:
+
+<https://github.com/Aselisewine/starter-hugo-academic/blob/master/README.md>
+
 The screenshots below are obtained from the following links:
 
 1. [https://sell.opendoor.com/hp-v3/ gclid=Cj0KCQiAzMGNBhCyARIsANpUkzOglOuBGaunfLPugzVpGz60XdhZKCwao-LhigAtzYeByrQ7DpBlBccaAvK4EALw_wcB&opt_exp=hp_phase_3&utm_campaign=13036899765&utm_cat=home&utm_content=524294580396&utm_medium=search&utm_source=google&utm_term=house+value](https://sell.opendoor.com/hp-v3/?gclid=Cj0KCQiAzMGNBhCyARIsANpUkzOglOuBGaunfLPugzVpGz60XdhZKCwao-LhigAtzYeByrQ7DpBlBccaAvK4EALw_wcB&opt_exp=hp_phase_3&utm_campaign=13036899765&utm_cat=home&utm_content=524294580396&utm_medium=search&utm_source=google&utm_term=house+value)
