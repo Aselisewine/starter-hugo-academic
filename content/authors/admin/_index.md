@@ -27,6 +27,9 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
+  - icon: 
+    icon_pack: ai
+    link: uploads/Problem Statement Proposal.pdf
 organizations:
   - name: University of Texas at Arlington
     url: https://www.uta.edu/
