@@ -1,12 +1,12 @@
 ---
 title: Project Proposal
 subtitle: null
-date: 2021-12-08T01:00:00.000Z
+date: 2022-12-08T01:00:00.000Z
 summary: ""
 draft: false
 featured: true
 authors: null
-lastmod: 2021-12-08T00:00:00Z
+lastmod: 2022-12-08T00:00:00Z
 external_link: https://wisdom-aselisewine.netlify.app/post/project-1/
 tags: Data Mining
 categories: null
