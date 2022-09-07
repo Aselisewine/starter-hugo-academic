@@ -28,7 +28,7 @@ social:
     icon_pack: ai
     link: uploads/resume.pdf
   - icon: Feedback
-    icon_pack: ai
+    icon_pack: ab
     link: uploads/feedback.pdf
 organizations:
   - name: University of Texas at Arlington
