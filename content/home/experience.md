@@ -35,6 +35,8 @@ experience:
         * Teaching a lab class.
         * Assisting in faculty research.
         * Holding office hours to assist students.
+     feedback: Students Assessment
+     url: uploads/feedback.pdf
         
   - title: Graduate Teaching Assistant
     company: Ball State University
