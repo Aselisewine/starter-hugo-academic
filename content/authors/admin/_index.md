@@ -29,9 +29,9 @@ social:
     link: uploads/resume.pdf
   - display:
       header: false
-    icon_pack: ai
+    icon_pack: far
     link: uploads/feedback.pdf
-    icon: assets/media/evaluate.jpeg
+    icon: feedback
 organizations:
   - name: University of Texas at Arlington
     url: https://www.uta.edu/
