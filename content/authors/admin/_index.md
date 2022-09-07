@@ -27,9 +27,6 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
-  - icon: Feedback
-    icon_pack: fas
-    link: uploads/feedback.pdf
 organizations:
   - name: University of Texas at Arlington
     url: https://www.uta.edu/
@@ -48,5 +45,4 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-
-Wisdom Aselisewine is a Ph.D Student of Statistics at the University of Texas at Arlington. He obtained a B.Sc degree in Actuarial Science, from the University for Development Studies in Ghana in 2015, and a Master's degree in Actuarial Science and Statistics, from the Ball state University in USA in 2020. His research interests include Machine Learning, Survival Analysis, Statistical Computing and Actuarial Science.
+Wisdom Aselisewine is a Ph.D Student of Statistics at the University of Texas at Arlington. He obtained a B.Sc degree in Actuarial Science, from the University for Development Studies in Ghana in 2015, and a Master's degree in Actuarial Science and Statistics, from the Ball state University in USA in 2020. His research interests include Machine Learning, Survival Analysis, Statistical Computing and Actuarial Science. uploads/feedback.pdf
