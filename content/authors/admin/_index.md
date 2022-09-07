@@ -27,7 +27,7 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
-  - icon: Teaching_Evaluation_Report
+  - icon: Feedback
     icon_pack: ai
     link: uploads/feedback.pdf
 organizations:
