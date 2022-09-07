@@ -27,11 +27,9 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
-  - display:
-      header: false
-    icon_pack: far
+  - icon: Teaching Evaluation Report
+    icon_pack: ai
     link: uploads/feedback.pdf
-    icon: feedback
 organizations:
   - name: University of Texas at Arlington
     url: https://www.uta.edu/
