@@ -29,14 +29,14 @@ experience:
     location: Arlington, TX
     date_start: '2020-09-01'
     date_end: ''
+    feedback: Assessment
+    feedback_url: 'uploads/feedback.pdf'
     description: |2-
         Responsibilities include:
         
         * Teaching a lab class.
         * Assisting in faculty research.
         * Holding office hours to assist students.
-     feedback: Students Assessment
-     url: uploads/feedback.pdf
         
   - title: Graduate Teaching Assistant
     company: Ball State University
