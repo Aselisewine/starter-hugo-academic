@@ -29,8 +29,6 @@ experience:
     location: Arlington, TX
     date_start: '2020-09-01'
     date_end: ''
-    feedback: Assessment
-    feedback_url: 'uploads/feedback.pdf'
     description: |2-
         Responsibilities include:
         
