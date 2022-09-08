@@ -62,7 +62,7 @@ The python codes for this project are taken directly from the following sources.
 
 ## Load Data
 
-The Amazon review dataset is considered for analysis in this project. This data can be obtained from the following sources: https://www.kaggle.com/marklvl/sentiment-labelled-sentences-data-set. The is made of 1000 positive and negative senitments extracted from the reviews of products. A review is considered a positve sentiment if it takes a value of 1 and o otherwise.
+The Amazon review dataset is considered for analysis in this project. This data can be obtained from the following sources: https://www.kaggle.com/marklvl/sentiment-labelled-sentences-data-set. The data is made up of 1000 positive and negative senitments extracted from the reviews of products. A review is considered a positive sentiment if it takes a value of 1 and 0 otherwise.
 
 ```python
 column_list = ["Reviews", "Sentiment_label"]
@@ -71,7 +71,7 @@ dataset = pd.read_csv('amazon_cells_labelled.txt', delimiter = '\t', quoting = 3
 
 ## Split data into training and test sets
 
-The dataset was split into training set and testing set. The split ratio was 80% training and 20% testing sets. The training set will be used to train our NBC and the test set will be used for validating our classifier.
+The dataset is split into training set and testing set. The split ratio was 80% training and 20% testing sets. The training set will be used to train our NBC and the test set will be used for validating our classifier.
 
 ```python
 train_data, test_data = train_test_split(dataset, test_size=0.2, random_state=0)
@@ -101,7 +101,7 @@ print(train_data)
 [800 rows x 2 columns]
 ```
 
-Both training and testing data were further split according to positive and negative reviews. As stated early, a review is positive if the review takes a sentiment label of 1 and negative if it takes a sentiment label of 0. 
+Both training and testing data are further split according to positive and negative reviews. As stated early, a review is positive if the review takes a sentiment label of 1 and negative if it takes a sentiment label of 0. 
 
 ```python
 train_postive_reviews = dataset[dataset.Sentiment_label==1]
@@ -126,7 +126,7 @@ print(X2)
 
 ## Data cleaning
 
-The original dataset is very messy, containing lots of punctions, abbreviations, html format, numbers, and upper case letter. We removed all the unwanted information in the data and also change all upper case letters to small case letters. An preview of part of the cleaned data is shown below.
+The original dataset is very messy, containing lots of punctuations, abbreviations, html format, numbers, and upper case letter. We removed all the unwanted information in the data and also change all upper case letters to small case letters. A preview of part of the cleaned data is shown below.
 
 ```python
 def clean(text):
@@ -164,7 +164,7 @@ print(dataset)
 
 ## Tokenization
 
-After cleaning our dataset, we preceed to create the Bag of Words model. We do this by splitting the text into individual words process is known as tokenization. Words that occur in less than or equal 5 times were removed from the dataset. The output below shows some of the words in the data and the corresponding number of times they appear in the text.
+After cleaning our dataset, we proceed to create the Bag of Words model. We do this by splitting the text into individual words process known as tokenization. Words that occur in less than or equal 5 times were removed from the dataset. The output below shows some of the words in the data and the corresponding number of times they appear in the text.
 
 ```python
 def tokenize(X):                
@@ -325,14 +325,14 @@ words_vectors_negative_x_test = np.asarray(sparse_matrix_review(X_test2))
 
 As stateed earlier, NBC uses the Bayes theorem and with a strong assumption that the set of predictors in the data are independent. In this case, we will assume that each word is independent of other words.
 
-The Bayes theorem is defined as; P(Y∣X)= P(X∣Y)P(Y)/P(X), where X and Y are events, P(Y) is the prior probability, P(X∣Y) is the likelihood, and P(X) is the predictor prior probability. This equation is read us the conditional probability of event Y occurring given X has already occured. 
+The Bayes theorem is defined as; P(Y∣X)= P(X∣Y)P(Y)/P(X), where X and Y are events, P(Y) is the prior probability, P(X∣Y) is the likelihood, and P(X) is the predictor prior probability. This equation is read as the conditional probability of event Y occurring given X has already occurred. 
 
-To find this probability, we will calculate the probability of X occuring given Y has occured and multiply the results by the probability of Y occuring and then divid everything by the probability of X occuring.
+To find this probability, we will calculate the probability of X occurring given Y has occurred and multiply the results by the probability of Y occurring and then divid everything by the probability of X occurring.
 
 In this section, we calculated the following:
 
-1. The P\[the probability of "the" occuring]; Over here, we took the total number of "the" that occured in the data and divid this by the total number of words in the data.
-2. The P\[the probability of "the" occuring / "positve" review]; Over here, we took the total number of "the" that occured in the positive data and divid this by the total number of positive words in the data.
+1. The P\[the probability of "the" occurring]; Over here, we take the total number of "the" that occurred in the data and divid this by the total number of words in the data.
+2. The P\[the probability of "the" occurring / "positive" review]; Over here, we took the total number of "the" that occurred in the positive data and divide this by the total number of positive words in the data.
 
 ```python
 count=0
@@ -853,7 +853,7 @@ print(k)
 
 ## Final accuracy after cross-validation
 
-Before cross-validation, our classifier had s predicted accuracy of 48.3%. However, after cross-validation, we obtained an accuracy rate of 51.5%. This suggest an improvement over the initial model.
+Before performing cross-validation, our classifier had predicted accuracy of 48.3%. However, after cross-validation, we obtained an accuracy rate of 51.5%. This suggest an improvement over the initial model.
 
 ```python
 predict_label__ = 0
