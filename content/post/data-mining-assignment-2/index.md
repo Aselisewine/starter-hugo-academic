@@ -117,7 +117,7 @@ X_train=x_train[:, np.newaxis]
 X_test=x_test[:, np.newaxis]
 ```
 
-Using root mean square error, find weights of polynomial regression for order is 0, 1, 3, 9.
+Using root mean square error, find weights of polynomial regression for order 0, 1, 3, 9.
 Gradient descent approach is used to extract weights of the polynomial regression.
 
 ```python
@@ -271,7 +271,7 @@ RMSE for model with degree 9: 0.9170660081592189
 
 Display charts of fitted data
 
-We can see from the charts below that the constant and the simple linear function (polynomial with degree 0 and 1 respectively) do not provide any good fit to the training samples. This refers to underfitting. A polynomial of degree 3 approximately follow the true function and maybe consider as a good fit to the data. However, the polynomial of degree 9 overfit the training data perfectly. The disadvantages of this overfitting is that model tends to perform very poorly on test data.
+We can see from the charts below that the constant and the simple linear function (polynomial with degree 0 and 1 respectively) do not provide any good fit to the training samples. This refers to under-fitting. A polynomial of degree 3 approximately follow the true function and maybe considered as a good fit to the data. However, the polynomial of degree 9 over-fit the training data perfectly. The disadvantages of this overfitting is that model tends to perform very poorly on the test data.
 
 ```python
 degrees = [0, 1, 3, 9]
@@ -329,7 +329,7 @@ plt.show()
 
 Draw train error vs test error.
 
-The plot below indicates that, the best model for the data is a polynomial of degree 2 or 3. These two model produced the smallest test errors comparatively. As stated earlier, after degree 5, we can observe that overfitting has occurred causing the test errors to jump up significantly. To resolve this, we need to increase the same size.
+The plot below indicates that, the best model for the data is a polynomial of degree 2 or 3. These two models produced the smallest test errors comparatively. As stated earlier, after degree 5, we can observe that overfitting has occurred causing the test errors to jump up significantly. To resolve this, we need to increase the same size.
 
 ```python
 x_train=train_data.iloc[:, 0].values
