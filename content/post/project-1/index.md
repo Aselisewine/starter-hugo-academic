@@ -14,10 +14,9 @@ variable or feature importance test in this study which will help us to better i
 
 The dataset involved in this study contained information, such as the name, survival status, gender, ticket class, age, fare, port of embarkation, number of siblings/spouse aboard the titanic, and the number of parent/children aboard the titanic, of passengers that a-boarded the titanic which sank after colliding with an iceberg and resulted in the death of 1502 out of 2224 passengers and crew. The response or predicted variable for this study is the survival status (an indicator variable that takes a value of 1 if survived and 0 if dead). 
 
-Since our response variable is binary (0 or 1 ), then the recommended machine learning model for this analysis is classification models. For the purposes of this study, we will explore the following classification models such as the Random forest, K-Nearest Neighbor, and Support Vector Machines to determine if any of them fits well or provides accurate predictions to the given data. We proposed these classification models because of they are more robust and have the ability to capture both simple and complex patterns that maybe found in the data. The best model will be selected based on prediction accuracy.
+Since our response variable is binary (0 or 1 ), then the recommended machine learning model for this analysis is classification models. For the purposes of this study, we will explore the following classification models such as the Random forest, K-Nearest Neighbor, and Support Vector Machines to determine if any of them fits well or provides accurate predictions to the given data. We proposed these classification models because they are more robust and have the ability to capture both simple and complex patterns that maybe found in the data. The best model will be selected based on prediction accuracy.
 
 ```
-
 
 ```
 
@@ -652,8 +651,6 @@ Before tuning the K-NN parameter, the default K-NN model has a prediction accura
 [[96 14]
  [34 35]]
 0.7318435754189944
-
-
 ```
 
 ## 3. Support Vector Machine (SVM) Classification Model
@@ -1206,9 +1203,6 @@ The best optimal model obtained here has an accuracy rate of 82.12%, which is fa
 ```
 [[102   8]
  [ 24  45]]
-
-
-
 ```
 
 ## Final Model Selection
@@ -1328,8 +1322,6 @@ CONGRATULATIONS! After submitting our results to the Kaggle's Titanic Machine Le
 417         1309         1
 
 [418 rows x 2 columns]
-
-
 ```
 
 ## Feature Importance using Optimal Model
