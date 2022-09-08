@@ -27,6 +27,11 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
+  - display:
+      header: false
+    link: uploads/feedback.pdf
+    icon_pack: fas
+    icon: arrows-to-eye
 organizations:
   - name: University of Texas at Arlington
     url: https://www.uta.edu/
