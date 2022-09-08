@@ -8,11 +8,11 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-The goal of this project is to build a CIFAR-10 image classifier using pytorch and tensorflow. In this project, different classifiers are built using different parameter tuning for the purposes of comparisons. 
+The goal of this project is to build a CIFAR-10 image classifier using pytorch and tensorflow. In this project, different classifiers are built for the purposes of comparisons. 
 
-To compare the performances among the fitted models, we will compute the predicted accuracy and the estimated loss of each model. We will also plot graphs of accuracies and estimated losses against the fitted models for easy comparisons. The performances of each model will be based on the predictive accuracy on the test data. 
+To compare the performances among the fitted models, we will use the predicted accuracy and the estimated loss of each model as comparison metric. We will also plot graphs of accuracies and estimated losses against the fitted models for easy comparisons. The performances of each model will also be evaluated based on the test data. 
 
-The layout of this project is organized as follows; in section 1, we import the require libraries and data necessary for this project. We also report the dimensions of the dataset, both training and test dataset, display some images of the data and finally normalize the dataset. In section 2, we will fit 5 different models using tensorflow and also perform a classification report for each class in the test data using the optimal model in this category. In section 3, 3 different models will also be fitted using pytorch and classification reports for each class in the test data will also be computed. In section 4, we will select our overall optimal model, and also plot graphs of the accuracies and the losses against each model for easy comparison and visualization. Finally in Section 5, we end our discussion by some concluding remarks and contributions. 
+The layout of this project is organized as follows; in section 1, we import the require libraries and data necessary for this project. We also report the dimensions of the dataset, both the training and the testing set, and also normalize the dataset. In section 2, we will fit 5 different models using tensorflow and perform a classification report for each class in the test data using the optimal model. In section 3, 3 different models will also be fitted using pytorch and classification reports for each class based on the test data will also be computed. In section 4, we will select our overall optimal model, and also plot graphs of the accuracies and the losses against each model for easy comparison and visualization. Finally in Section 5, we end our discussion by some concluding remarks and contributions. 
 
 ## 1.0 Libraries
 
@@ -34,7 +34,7 @@ from matplotlib import pyplot
 
 1.1 Import Dataset
 
-In this project, we will use the CIFAR10 dataset. This data has about 60000 images of the following classes: ‘airplane’, ‘automobile’, ‘bird’, ‘cat’, ‘deer’, ‘dog’, ‘frog’, ‘horse’, ‘ship’, ‘truck’. The images in the CIFAR-10 dataset are of size 3x32x32, that is, 3-channel color images of size 32x32 pixels. In this project, we will split the dataset into training set and test set. The split ratio is 80% training set, which will be used to train our classifier, and 20% test set, which will be used to validate our trained model. 
+In this project, we will use the CIFAR10 dataset. This data has about 60000 images of the following classes: ‘airplane’, ‘automobile’, ‘bird’, ‘cat’, ‘deer’, ‘dog’, ‘frog’, ‘horse’, ‘ship’, ‘truck’. The images in the CIFAR-10 dataset are of size 3x32x32, that is, 3-channel color images of size 32x32 pixels. In this project, we will split the dataset into training set and testing set. The split ratio is 80% training set, which will be used to train our classifier, and 20% testing set, which will be used to validate our trained model. 
 
 Reference: The reference code for this project can be obtained from the following links:
 
@@ -161,7 +161,7 @@ The following five different classifiers are trained in this section using tenso
 
 1. 2 simple 2-convolutional layer classifiers with different filter sizes
 2. 3 3-convolutional layer classifiers with different numbers of fully connected layers and filter sizes.
-   The input shape for each classifier in this section is 32X32X3, and the ReLu activation was used in the input layer for each classifier. For all classifiers in this category, the "Adam" optimizer and the sparse categorical crossentropy loss were also used. "Softmax" was used as activation in the output layer. Epochs for all classifiers was set at 10.
+   The input shape for each classifier in this section is 32X32X3, and the ReLu activation is used in the input layer for each classifier. For all classifiers in this category, the "Adam" optimizer and the sparse categorical cross-entropy loss are used. "Softmax" is used as activation in the output layer. Epochs for all classifiers is set at 10.
 
 2.1 Train a 2-layer CNN Model
 
@@ -580,7 +580,7 @@ In this section 3 different classifiers are trained for comparisons;
 2. 2 convolutional layers with 3 fully connected layers
 3. 3 convolutional layers with 3 fully connected layers
 
-The filter sizes for each classifier in this section is varied and we used the Classification Cross-Entropy loss and SGD with momentum equals to 0.9 and learning rate of 0.001 for all classifiers.
+The filter sizes for each classifier in this section is varied and we use the Classification Cross-Entropy loss and SGD with momentum equals to 0.9 and learning rate of 0.001 for all classifiers.
 
 ```python
 # Train the CNN-6 classifier
@@ -1135,6 +1135,6 @@ Contributions, challenges and conclusions
 
 In this project, I used a referece code (references stated above) and lecture notes to build an image classifier for the CIFAR-10 dataset. 8 different classifiers were built using different tuning parameter values and network size. The purpose of this is to be able to select an optimal predictive model for the CIFAR-10 dataset. Detail reports of my results are provided to enhance understanding. 
 
-The first challenge I encounter in this project is how to determine the optimal parameter value, and the second challenge has to do with pytorch. Training a classifier with pytorch with many layers computationally inefficient since it takes long time to generate the results.
+The first challenge I encounter in this project is how to determine the optimal parameter value, and the second challenge has to do with pytorch. Training a classifier with pytorch with many layers is computationally inefficient since it takes long time to generate the results.
 
 In conclusion, from my results, it's clear that the optimal model for the data under tensorflow is CNN-3 and that of pytorch is CNN-8.
